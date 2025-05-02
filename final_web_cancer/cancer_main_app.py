@@ -10,7 +10,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 # Load the dataset
-df = pd.read_csv("breast-cancer.csv")
+df = pd.read_csv("final_web_cancer/breast-cancer.csv")
 
 # Set up the web app
 st.set_page_config(page_title="Breast Cancer Analysis and Classification Web App", page_icon=":woman-health-worker:",
